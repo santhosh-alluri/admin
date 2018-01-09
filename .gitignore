@@ -2,3 +2,6 @@ build
 PythonWorkDir
 **/*.pyc
 .ssh/*
+
+External Libraries/
+bin/
