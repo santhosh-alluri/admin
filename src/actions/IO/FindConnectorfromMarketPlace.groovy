@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement
 class FindConnectorfromMarketPlace{
     public void run(def params){
         
-        def foundElements = Elements.findAll(params,Browser.Driver)
+       /* def foundElements = Elements.findAll(params,Browser.Driver)
          
         //select specified connector from IO Marketplace
         for(element in foundElements)
@@ -20,10 +20,10 @@ class FindConnectorfromMarketPlace{
             }
         }
         
-         sleep(2000)
+         sleep(2000) */
         
         //click on install button 
-         params.ID = ".appsList.smartconnectorsList>li .appBox .appTop .a-action>a"
+      //   params.ID = ".appsList.smartconnectorsList>li .appBox .appTop .a-action>a"
                 println(" params.ID" +  params.ID)
                 def Smartconnectors = Elements.findAll(params,Browser.Driver)
                 for(element in Smartconnectors)
